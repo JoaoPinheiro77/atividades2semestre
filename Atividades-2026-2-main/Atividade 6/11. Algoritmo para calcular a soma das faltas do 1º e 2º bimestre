@@ -1,0 +1,24 @@
+Algoritmo "soma_faltas"
+
+Var
+   falta1, falta2, total: inteiro
+
+Inicio
+   leia(falta1)
+   leia(falta2)
+
+   total <- falta1 + falta2
+
+   escreva(total)
+
+FimAlgoritmo
+_______________________________________________________________
+
+Em Python:
+
+falta1 = int(input("Digite a quantidade de faltas do 1º bimestre: "))
+falta2 = int(input("Digite a quantidade de faltas do 2º bimestre: "))
+
+total = falta1 + falta2
+
+print(total)

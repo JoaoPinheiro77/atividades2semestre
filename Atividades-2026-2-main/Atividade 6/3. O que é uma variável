@@ -1,0 +1,3 @@
+Variavel e um espaco na memoria do computador usado para armazenar um valor , que pode ser alterado durante a execucao do programa.
+  Exemplo:
+  idade = 20

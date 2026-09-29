@@ -1,0 +1,17 @@
+ALGORITMO "MostrarUsuarios"
+
+VAR
+    usuarios: LISTA
+    usuario: TEXTO
+
+INICIO
+
+    usuarios <- OBTER_USUARIOS_QUE_ACESSARAM_O_COMPUTADOR()
+
+    ESCREVA("Usuários que acessaram o computador:")
+
+    PARA CADA usuario EM usuarios FACA
+        ESCREVA(usuario)
+    FIMPARA
+
+FIMALGORITMO

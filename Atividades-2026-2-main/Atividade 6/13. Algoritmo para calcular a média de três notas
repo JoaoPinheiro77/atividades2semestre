@@ -1,0 +1,26 @@
+Algoritmo "media_notas"
+
+Var
+   nota1, nota2, nota3, media: real
+
+Inicio
+   leia(nota1)
+   leia(nota2)
+   leia(nota3)
+
+   media <- (nota1 + nota2 + nota3) / 3
+
+   escreva(media)
+
+FimAlgoritmo
+_______________________________________________________________
+
+Em Python:
+
+nota1 = float(input())
+nota2 = float(input())
+nota3 = float(input())
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(media)

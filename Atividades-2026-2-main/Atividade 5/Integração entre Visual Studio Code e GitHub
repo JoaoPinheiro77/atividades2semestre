@@ -1,0 +1,85 @@
+# Integração entre Visual Studio Code e GitHub
+
+## Introdução
+
+O desenvolvimento de software exige ferramentas que facilitem a criação, organização, versionamento e compartilhamento de projetos. Nesse contexto, o **Visual Studio Code (VS Code)** e o **GitHub** são amplamente utilizados por estudantes e profissionais da área de tecnologia. A integração entre essas ferramentas permite desenvolver projetos localmente, controlar suas versões e armazená-los em repositórios remotos.
+
+O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft, enquanto o GitHub é uma plataforma baseada em Git utilizada para hospedagem e colaboração em projetos de software. A integração entre ambos proporciona um fluxo de trabalho mais organizado e eficiente.
+
+## O que é o Visual Studio Code?
+
+O Visual Studio Code é um editor de código-fonte gratuito que oferece suporte a diversas linguagens de programação, como Python, JavaScript, Java, C, C++ e HTML. Entre seus recursos estão o terminal integrado, extensões, depuração de código e ferramentas para controle de versão.
+
+Um dos principais benefícios do VS Code é permitir que o desenvolvedor execute diversas tarefas sem precisar sair do ambiente de desenvolvimento. Por meio da integração com o Git, é possível acompanhar alterações nos arquivos, criar commits e enviar modificações para repositórios remotos.
+
+## O que é o GitHub?
+
+O GitHub é uma plataforma utilizada para hospedar projetos que utilizam o sistema de controle de versão Git. Ele permite armazenar códigos na nuvem, acompanhar alterações, colaborar com outras pessoas e manter diferentes versões de um projeto.
+
+Os projetos são organizados em **repositórios**, que podem conter códigos-fonte, documentos, imagens e outros arquivos relacionados ao desenvolvimento. O GitHub também oferece recursos como branches, pull requests, issues e revisão de código.
+
+## Como ocorre a integração?
+
+A integração entre VS Code e GitHub ocorre principalmente por meio do **Git**. O desenvolvedor cria ou abre um projeto no VS Code e utiliza o Git para registrar as alterações realizadas.
+
+Um fluxo básico pode ser representado da seguinte forma:
+
+**Criar projeto → inicializar Git → criar repositório no GitHub → conectar os repositórios → realizar alterações → criar commit → enviar para o GitHub.**
+
+No VS Code, o usuário pode acessar o painel de controle de código-fonte para visualizar arquivos modificados, selecionar alterações e criar commits. Também é possível utilizar o terminal integrado para executar comandos do Git.
+
+## Principais comandos utilizados
+
+Alguns comandos importantes para trabalhar com Git e GitHub são:
+
+```text
+git init
+git add .
+git commit -m "Primeiro commit"
+git branch -M main
+git remote add origin URL_DO_REPOSITORIO
+git push -u origin main
+```
+
+O comando `git init` inicializa um repositório Git no projeto. O `git add` adiciona arquivos à área de preparação, enquanto `git commit` registra uma versão das alterações. O `git remote add origin` estabelece a conexão com o repositório remoto do GitHub e o `git push` envia os arquivos para esse repositório.
+
+Posteriormente, quando houver novas alterações, o processo normalmente será:
+
+```text
+git add .
+git commit -m "Descrição da alteração"
+git push
+```
+
+## Vantagens da integração
+
+A integração entre VS Code e GitHub apresenta diversas vantagens. Uma delas é o **controle de versões**, que permite acompanhar a evolução do projeto e identificar alterações realizadas ao longo do desenvolvimento.
+
+Outro benefício é a **segurança do código**, pois o projeto pode ser armazenado em um repositório remoto. Além disso, o GitHub facilita a colaboração entre desenvolvedores, permitindo que várias pessoas trabalhem no mesmo projeto de maneira organizada.
+
+Para estudantes de programação, essa integração também é importante para a construção de um **portfólio profissional**, pois projetos publicados no GitHub podem demonstrar conhecimentos práticos para empresas e recrutadores.
+
+## Exemplo prático
+
+Considere um estudante que está desenvolvendo um site utilizando HTML, CSS e JavaScript. Inicialmente, ele cria uma pasta para o projeto e abre essa pasta no VS Code.
+
+Depois de desenvolver a primeira versão, o estudante utiliza o Git para registrar as alterações e envia o projeto para um repositório no GitHub. Durante os dias seguintes, ele adiciona novas funcionalidades.
+
+A cada alteração significativa, pode criar um novo commit, por exemplo:
+
+```text
+"Adiciona página inicial"
+"Cria formulário de contato"
+"Adiciona responsividade"
+"Corrige erro no menu"
+```
+
+Dessa maneira, o histórico do projeto fica organizado e é possível acompanhar sua evolução.
+
+## Conclusão
+
+A integração entre Visual Studio Code e GitHub representa uma combinação importante para o desenvolvimento de software moderno. Enquanto o VS Code oferece um ambiente completo para escrever e testar códigos, o Git e o GitHub permitem controlar versões, armazenar projetos e colaborar com outros desenvolvedores.
+
+Para quem está iniciando na área de programação, aprender a utilizar essas ferramentas é um passo importante para desenvolver boas práticas de desenvolvimento. Além de facilitar a organização dos projetos, o conhecimento adquirido pode contribuir para a criação de um portfólio e para a preparação para o mercado de trabalho na área de tecnologia.
+
+Em síntese, a integração entre VS Code e GitHub torna o processo de desenvolvimento mais organizado, colaborativo e seguro, sendo uma habilidade relevante tanto para estudantes quanto para profissionais de tecnologia.

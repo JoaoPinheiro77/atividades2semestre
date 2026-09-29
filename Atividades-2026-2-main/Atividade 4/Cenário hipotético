@@ -1,0 +1,11 @@
+O sistema interno de uma empresa. Sempre que um funcionário entra no sistema, é criado um registro contendo:
+
+Usuário: Daniel
+Data: 23/08/2026
+Horário: 18:10
+Tipo de acesso: Login realizado
+
+O programa consulta esse registro e apresenta as informações na tela.
+
+Fluxo:
+Início → obter dados do log → apresentar os dados → fim.

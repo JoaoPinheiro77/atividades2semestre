@@ -1,0 +1,22 @@
+ALGORITMO "MostrarLogsDeAcesso"
+
+VAR
+    usuario: TEXTO
+    data: TEXTO
+    horario: TEXTO
+    tipoAcesso: TEXTO
+
+INICIO
+
+    usuario <- "Daniel"
+    data <- "23/08/2026"
+    horario <- "18:10"
+    tipoAcesso <- "Login realizado"
+
+    ESCREVA("===== LOG DE ACESSO DO SISTEMA =====")
+    ESCREVA("Usuário: ", usuario)
+    ESCREVA("Data: ", data)
+    ESCREVA("Horário: ", horario)
+    ESCREVA("Acesso: ", tipoAcesso)
+
+FIMALGORITMO

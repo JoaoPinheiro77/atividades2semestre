@@ -1,0 +1,29 @@
+PHP:
+
+Inteiro (int)
+Real/decimal (ponto flutuante)
+Texto (string)
+Booleano (bool)
+Variedade
+
+Python:
+
+Inteiro (int)
+Real/decimal (ponto flutuante)
+Texto (str)
+Booleano (bool)
+Lista (lista)
+Tupla (tupla)
+Dicionario (dict)
+
+Java:
+
+byte
+curto
+inteiro
+longo
+flutuador
+dobro
+personagem
+booleano
+Corda

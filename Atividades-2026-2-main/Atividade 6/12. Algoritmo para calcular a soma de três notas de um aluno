@@ -1,0 +1,26 @@
+Algoritmo "soma_notas"
+
+Var
+   nota1, nota2, nota3, soma: real
+
+Inicio
+   leia(nota1)
+   leia(nota2)
+   leia(nota3)
+
+   soma <- nota1 + nota2 + nota3
+
+   escreva(soma)
+
+FimAlgoritmo
+_______________________________________________________________
+
+Em Python:
+
+nota1 = float(input())
+nota2 = float(input())
+nota3 = float(input())
+
+soma = nota1 + nota2 + nota3
+
+print(soma)

@@ -1,0 +1,12 @@
+ALGORITMO "MostrarTemperatura"
+
+VAR
+    temperatura: REAL
+
+INICIO
+
+    temperatura <- OBTER_TEMPERATURA_DO_COMPUTADOR()
+
+    ESCREVA("A temperatura do computador é: ", temperatura, " °C")
+
+FIMALGORITMO

@@ -1,0 +1,12 @@
+ALGORITMO "MostrarHora"
+
+VAR
+    horaAtual: HORA
+
+INICIO
+
+    horaAtual <- OBTER_HORA_DO_COMPUTADOR()
+
+    ESCREVA("A hora atual é: ", horaAtual)
+
+FIMALGORITMO

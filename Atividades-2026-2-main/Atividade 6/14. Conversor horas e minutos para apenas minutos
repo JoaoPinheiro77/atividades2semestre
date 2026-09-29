@@ -1,0 +1,27 @@
+Algoritmo "converter_minutos"
+
+Var
+   horas, minutos, total: inteiro
+
+Inicio
+   leia(horas)
+   leia(minutos)
+
+   total <- (horas * 60) + minutos
+
+   escreva(total)
+
+FimAlgoritmo
+
+Exemplo:
+2 horas e 30 minutos → (2 × 60) + 30 = 150 minutos.
+_______________________________________________________________
+
+Em Python:
+
+horas = int(input())
+minutos = int(input())
+
+total = (horas * 60) + minutos
+
+print(total)

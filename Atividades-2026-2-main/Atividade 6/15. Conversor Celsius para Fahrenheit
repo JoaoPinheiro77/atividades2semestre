@@ -1,0 +1,30 @@
+Algoritmo "celsius_fahrenheit"
+
+Var
+   celsius, fahrenheit: real
+
+Inicio
+   leia(celsius)
+
+   fahrenheit <- 32 + (1.8 * celsius)
+
+   escreva(fahrenheit)
+
+FimAlgoritmo
+
+
+Exemplo:
+Se C = 20:
+
+F = 32 + (1,8 × 20)
+F = 68°F
+
+_______________________________________________________________
+
+Em Python:
+
+celsius = float(input())
+
+fahrenheit = 32 + (1.8 * celsius)
+
+print(fahrenheit)

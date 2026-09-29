@@ -1,0 +1,29 @@
+Em fluxograma seria:
+
+Inicio
+↓
+Leia nota 1
+↓
+Leia nota 2
+↓
+Leia nota 3
+↓
+Calcular: media = (nota1 + nota2 + nota3) / 3
+↓
+Imprima a media
+↓
+Fim
+
+________________________________________________________________-Em Python:
+
+# Início
+
+nota1 = float(input("Digite a nota 1: "))
+nota2 = float(input("Digite a nota 2: "))
+nota3 = float(input("Digite a nota 3: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print("A média é:", media)
+
+# Fim

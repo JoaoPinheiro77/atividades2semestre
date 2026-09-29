@@ -1,0 +1,17 @@
+Inicio: O fluxo comeca no circulo de inicio.
+
+Condicao (Losango): A decisao e avaliada.
+
+Caminho Verdadeiro (V): Se a condicao for verdadeira, o algoritmo executa o comando 1 e depois segue para o encerramento.
+
+Caminho Falso (F): Se a condicao for falsa, o algoritmo ignora o comando 1, desviando por fora, e segue diretamente para o encerramento.
+
+Fim: O fluxo termina no circulo de fim.
+
+Essa representacao segue exatamente a logica padrao de uma estrutura condicional simples (if sem else).
+
+Resposta:
+
+( X ) Verdadeiro
+
+O fluxograma esta correto.
